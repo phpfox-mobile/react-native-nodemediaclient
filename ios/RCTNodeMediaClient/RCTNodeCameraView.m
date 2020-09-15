@@ -124,8 +124,4 @@
   return [_np switchCamera];
 }
 
-- (void)setZoomScale:(float)zoomScale {
-  [_np setZoomScale:zoomScale];
-}
-
 @end
