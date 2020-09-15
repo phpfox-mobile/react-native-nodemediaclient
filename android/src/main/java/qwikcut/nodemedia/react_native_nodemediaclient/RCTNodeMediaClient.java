@@ -1,4 +1,4 @@
-package qwikcut.nodemedia.react_native_nodemediaclient;
+package cn.nodemedia.react_native_nodemediaclient;
 
 /**
  * Created by aliang on 2018/2/28.

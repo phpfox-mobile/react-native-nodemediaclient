@@ -1,4 +1,4 @@
-package qwikcut.nodemedia.react_native_nodemediaclient;
+package cn.nodemedia.react_native_nodemediaclient;
 
 import org.junit.Test;
 

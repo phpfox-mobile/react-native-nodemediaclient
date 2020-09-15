@@ -5,7 +5,7 @@
 //  Copyright © 2017年 NodeMedia. All rights reserved.
 //
 
-package qwikcut.nodemedia.react_native_nodemediaclient;
+package cn.nodemedia.react_native_nodemediaclient;
 
 import android.util.Log;
 

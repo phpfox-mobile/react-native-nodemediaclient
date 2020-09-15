@@ -1,4 +1,4 @@
-package qwikcut.nodemedia.react_native_nodemediaclient;
+package cn.nodemedia.react_native_nodemediaclient;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("qwikcut.nodemedia.react_native_nodemediaclient.test", appContext.getPackageName());
+        assertEquals("cn.nodemedia.react_native_nodemediaclient.test", appContext.getPackageName());
     }
 }
