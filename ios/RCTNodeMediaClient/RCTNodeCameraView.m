@@ -91,6 +91,11 @@
   [_np setBeautyLevel:smoothSkinLevel];
 }
 
+- (void)setZoomScale:(NSInteger)zoomScale {
+  zoomScale = zoomScale;
+  [_np setZoomScale:zoomScale];
+}
+
 - (void)setFlashEnable:(BOOL)flashEnable {
   [_np setFlashEnable:flashEnable];
 }
