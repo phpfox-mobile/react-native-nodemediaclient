@@ -140,7 +140,7 @@ public class NodeCameraViewManager extends ViewGroupManager<RCTNodeCameraView> {
                 root.setFlashEnable(args.getBoolean(0));
                 break;
             case COMMAND_ZOOM_ID:
-                root.setZoomScale(args.getFloat(0));
+                root.setZoomScale((float)args.getDouble(0));
                 break;
         }
     }
