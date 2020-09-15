@@ -72,14 +72,6 @@ class NodeCameraView extends Component {
     );
   }
 
-  zoomChange(zoomScale) {
-    UIManager.dispatchViewManagerCommand(
-      findNodeHandle(this.refs[RCT_VIDEO_REF]),
-      UIManager.getViewManagerConfig('RCTNodeCamera').Commands.zoom,
-      [zoomScale]
-    );
-  }
-
   render() {
     return <RCTNodeCamera
       {...this.props}
