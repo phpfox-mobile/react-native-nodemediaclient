@@ -5,7 +5,7 @@
 //  Copyright © 2017年 NodeMedia. All rights reserved.
 //
 
-package cn.nodemedia.react_native_nodemediaclient;
+package qwikcut.nodemedia.react_native_nodemediaclient;
 
 import android.util.AttributeSet;
 
@@ -16,9 +16,9 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
 
-import cn.nodemedia.NodePlayer;
-import cn.nodemedia.NodePlayerDelegate;
-import cn.nodemedia.NodePlayerView;
+import qwikcut.nodemedia.NodePlayer;
+import qwikcut.nodemedia.NodePlayerDelegate;
+import qwikcut.nodemedia.NodePlayerView;
 
 public class RCTNodePlayerView extends NodePlayerView implements LifecycleEventListener {
     private NodePlayer mNodePlayer;
