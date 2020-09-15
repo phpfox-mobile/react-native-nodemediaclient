@@ -119,4 +119,8 @@
   return [_np switchCamera];
 }
 
+- (void)setZoomScale:(NSInteger)zoomScale {
+  [_np setZoomScale:zoomScale];
+}
+
 @end
