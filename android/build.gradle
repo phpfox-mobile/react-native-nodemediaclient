@@ -23,7 +23,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.github.jkerb8:NodeMediaClient-Android:658c1853fb6692695dc012b0f2d11d1f042b9ff7'
+    implementation 'com.github.jkerb8:NodeMediaClient-Android:8ed2675c9f99dc27075617581f1debdcc3e22424'
     implementation 'com.android.support:appcompat-v7:28.0.1'
     implementation "com.facebook.react:react-native:+"  // From node_modules
 }
