@@ -10,8 +10,6 @@ package cn.nodemedia.react_native_nodemediaclient;
 import android.util.Log;
 import android.view.Choreographer;
 import android.view.View;
-import android.hardware.Camera;
-import android.hardware.Camera.Parameters;
 
 import androidx.annotation.NonNull;
 
@@ -21,6 +19,10 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
+
+import cn.nodemedia.NodeCameraView;
+import cn.nodemedia.NodePublisher;
+import cn.nodemedia.NodePublisherDelegate;
 
 
 public class RCTNodeCameraView extends NodeCameraView implements LifecycleEventListener {
